@@ -218,7 +218,7 @@ source "drivers/input/rmi4/Kconfig"
 
 #ifdef VENDOR_EDIT
 #ziqing.guo@BSP.Fingerprint.Basic, 2018/03/30 Add for 3d face kernel
-source "drivers/input/misc/oppo_face_drivers/Kconfig"
+#source "drivers/input/misc/oppo_face_drivers/Kconfig"
 #endif /* VENDOR_EDIT */
 endif
 

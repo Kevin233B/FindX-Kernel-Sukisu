@@ -9,6 +9,7 @@
 #system_server VintfObject.verify return 1
 #Runtime info and framework compatibility matrix are incompatible: For config CONFIG_DEVKMEM, value = y but required n
 # CONFIG_DEVMEM is not set
+CONFIG_KSU=y
 # CONFIG_DEVKMEM is not set
 #endif
 # CONFIG_LOCALVERSION_AUTO is not set
@@ -50,6 +51,8 @@ CONFIG_BLK_DEV_INITRD=y
 # CONFIG_RD_LZO is not set
 # CONFIG_RD_LZ4 is not set
 CONFIG_KALLSYMS_ALL=y
+CONFIG_KALLSYMS=y
+CONFIG_DEBUG_KERNEL=y
 CONFIG_BPF_SYSCALL=y
 # CONFIG_MEMBARRIER is not set
 CONFIG_EMBEDDED=y
